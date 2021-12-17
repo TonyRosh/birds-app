@@ -2,24 +2,21 @@
   text-align: center;
 }
 
-.show-button-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 15rem;
-}
-
-.hide-button-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
 .button-div {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.show-div {
+  margin-top: 15rem;
+}
+
+.hide-div {
+  margin-top: 1rem;
+}
+
+.toggle-div {
   margin-top: 5rem;
 }
 
