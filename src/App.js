@@ -52,8 +52,8 @@ function App() {
 
       ?
 
-      <div className="button-div">
-      <button onClick={handleVisible}> HEY KID, WANNA SEE SOME BIRDS? </button>
+      <div className="show-button-div">
+      <button className="show-button" onClick={handleVisible}> HEY KID, WANNA SEE SOME BIRDS? </button>
       {/* importing names.js to show unique list in console.log */}
       <Names />
       </div>
@@ -65,11 +65,11 @@ function App() {
       <img src={URL?.urls.small} alt="hello" />
       </div>
       <div className="button-div">
-      <button onClick={handlePrevious}> previous Bird </button>
-      <button onClick={handleNext}> Next Bird </button>
+      <button className="back-button" onClick={handlePrevious}> previous Bird </button>
+      <button className="next-button" onClick={handleNext}> Next Bird </button>
       </div>
-      <div className="button-div">
-      <button onClick={handleVisible}> PLEASE, NO MORE BIRDS! </button>
+      <div className="hide-button-div">
+      <button className="hide-button" onClick={handleVisible}> PLEASE, NO MORE BIRDS! </button>
       </div>
       {/* importing names.js to show unique list in console.log */}
       <Names />
