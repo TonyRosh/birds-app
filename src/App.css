@@ -27,9 +27,8 @@
   margin-top: 5rem;
 }
 
-.back-button {
+button {
   padding: 1rem;
-  background-color:rgb(255, 196, 0);
   border-radius: 1.87rem;
   text-transform: capitalize;
   font-size: 1rem;
@@ -37,30 +36,18 @@
   margin-right: 1rem;
 }
 
+.back-button {
+  background-color:rgb(255, 196, 0);
+}
+
 .next-button {
-  padding: 1rem;
   background-color:rgb(212, 0, 255);
-  border-radius: 1.87rem;
-  text-transform: capitalize;
-  font-size: 1rem;
-  cursor: pointer;
-  margin-left: 1;
 }
 
 .show-button {
-  padding: 1rem;
   background-color:chartreuse;
-  border-radius: 1.87rem;
-  text-transform: capitalize;
-  font-size: 1rem;
-  cursor: pointer;
 }
 
 .hide-button {
-  padding: 1rem;
   background-color:rgb(255, 0, 0);
-  border-radius: 1.87rem;
-  text-transform: capitalize;
-  font-size: 1rem;
-  cursor: pointer;
 }
