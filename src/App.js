@@ -40,9 +40,10 @@ function App() {
     }
   }
 
-  // toggle visibility of bird picture using birdIsVisible state
+  // toggle visibility of bird picture using birdIsVisible state and set counter to 0 so it starts over every time you toggle back and forth
   const handleVisible = () => {
     setBirdIsVisible(!birdIsVisible)
+    setCounter(0)
   }
 
   return (
